@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D373A3 !important;
+    overflow-y: hidden;
+    margin: 0;
+}

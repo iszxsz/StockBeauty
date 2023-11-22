@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>login</title>
+</head>
+<body>
+    <main id="main-login">
+    <div id="login-principal">
+        <div class="div-seta-voltar-login">
+            <a class="div-seta-voltar-login" href="index.html">
+            <img id="seta-voltar-login" src="assets/setaVoltar.svg" alt="" >
+            <p style="padding-left: 10PX;">Voltar</p>
+            </a>
+        </div>
+        <img class="logo-img" src="img/logo.png" alt="">
+        
+        <h1>Faça seu login</h1>
+            <input type="text" placeholder="E-mail" id="email-login" name="email">
+            <input type="password" placeholder="Senha" id="senha-login" name="senha">
+            <p id="respostaLogin" style="font-size: 10px; color: #BA3B7A;" ></p>
+        <button onclick="logar()" class="botao-entrar">Entrar</button>
+        <p>ou</p>
+        <button id="botao-logar-com-google">Logar com Google</button>
+        <a href="cadastro.html">Não possui cadastro? <span style="color: #BA3B7A;">Clique aqui</span></a>
+    </div>
+</main>
+
+<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore-compat.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
