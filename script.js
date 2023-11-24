@@ -9,8 +9,7 @@ var firebaseConfig = {
 };
 
 const app = firebase.initializeApp(firebaseConfig);
-// Se você estiver usando o Firebase Analytics, inclua a linha abaixo
-// const analytics = firebase.analytics();
+var provider = new firebase.auth.GoogleAuthProvider();
 
 
 function cadastrar(){
@@ -76,3 +75,4 @@ function logar(){
   });
 
 }
+

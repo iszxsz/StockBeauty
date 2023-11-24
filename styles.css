@@ -32,9 +32,11 @@ body{
 }
 
 .botao-entrar{
+    margin: 0px 0 10px 0;
     background-color: #D373A3;
     color: #fff;
 }
+
 
 .botao-entrar:hover{
     background-color: #fff;
@@ -48,7 +50,7 @@ body{
 }
 
 #seta-voltar-login{
-    width: 25px;
+    width: 17px;
 }
 
 #a-botao-clique-aq{
@@ -71,7 +73,7 @@ body{
 #login-principal input{
     border-radius: 10px;
     border: none;
-    background-color:#EEEAEC;;
+    background-color:#EEEAEC;
     padding: 10px;
     width: 100%;
     margin-bottom: 15px;
@@ -140,14 +142,95 @@ body{
     width: 300px;
 }
 
-@media screen and (max-width: 480px){
+#logo-lateral-login{
+    display: none;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
 
 }
 
-@media screen and (max-width: 480px){
-    
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    #logo-lateral-login{
+        display: flex!important;
+        width: ;
+    }
+    .logo-img{
+        display: none;
+    }
+
+    #main-login{
+        width: 900px;
+        background-color: #EEEAEC;
+        height: 600px;
+        justify-content: space-evenly;
+        border-radius: 15px;
+        border: 1px solid #e0dddf;
+    }
+
+    .tudo-login-87320{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #envolve-logo-tl-grande-login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid #BA3B7A;
+        padding: 10px;
+        width: 40%;
+    }
+
+    #logo-lateral-login{
+        width: 300px;
+    }
+
+    #login-principal input{
+        background-color: #F9F8F8;
+    }
 }
 
-@media screen and (max-width: 480px){
-    
+@media screen and (min-width: 1025px){
+
+    #logo-lateral-login{
+        display: flex!important;
+        width: 300px;
+    }
+    .logo-img{
+        display: none;
+    }
+
+    #main-login{
+        width: 1000px;
+        background-color: #EEEAEC;
+        height: 600px;
+        justify-content: space-evenly;
+        border-radius: 15px;
+        border: 1px solid #e0dddf;
+    }
+
+    .tudo-login-87320{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #envolve-logo-tl-grande-login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid #BA3B7A;
+        padding: 10px;
+        width: 40%;
+    }
+
+    #login-principal input{
+        background-color: #F9F8F8;
+    }
 }
