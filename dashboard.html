@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
     <title>Document</title>
 </head>
+
 <body>
     
+        <nav id="menu">
+            <div class="fora-menu-lateral">
+                <img class="icon-home botao-abrir-fechar-menu" src="assets/menu-icon-home.svg" alt="">
+                <img class="logo-lado-menu" src="img/logo-nome-apenas.png" alt="">
+            </div>
+            <div class="meio-menu-lateral-home">
+                <div class="dentro-menu-lateral">
+                    <div class="cadaItemDentroMenu">
+                        <img class="icon-home" src="assets/home-icone.svg" alt="icone para ir para página principal">
+                        <p>Home</p>
+                    </div>
+                    <!-- <div class="cadaItemDentroMenu">
+                            <img class="icon-home" src="assets/addClientes-home.svg" alt="botao para adicionar clientes">
+                        </div> -->
+                    <div class="cadaItemDentroMenu">
+                        <img class="icon-home" src="assets/listarClientes-home.svg" alt="botao para listar as clientes">
+                        <p>Clientes</p>
+                    </div>
+                    <div class="cadaItemDentroMenu">
+                        <img class="icon-home" src="assets/estoque-icon-home.svg" alt="">
+                        <p>Estoque</p>
+                    </div>
+                </div>
+            
+                <div class="cadaItemDentroMenu">
+                    <img class="icon-home" src="assets/arrow-back.svg" alt="">
+                    <p>Sair</p>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="header-dashboard">
+                <img class="icon-home botao-abrir-fechar-menu" src="assets/menu-icon-home.svg" alt="">
+                <img class="logo-lado-menu" src="img/logo-nome-apenas.png" alt="">
+            </div>
+        </main>
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore-compat.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

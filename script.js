@@ -76,3 +76,17 @@ function logar(){
 
 }
 
+const menu = document.getElementById("menu");
+const botaoAbrirFecharMenu = document.querySelectorAll(".botao-abrir-fechar-menu")
+
+botaoAbrirFecharMenu.forEach((bnt) => {
+    bnt.addEventListener("click", function() {
+        menu.classList.toggle("visible");
+    })
+});
+
+document.addEventListener( "click", function (e) {
+    if(!menu.contains(e.target) && !menuBnts[0].contains(e.target)){
+        menu.classList.remove("visible")
+    }
+})

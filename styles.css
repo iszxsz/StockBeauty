@@ -151,9 +151,13 @@ body{
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
+    body{
+        background-color: #D373A3;
+    }
+
     #logo-lateral-login{
         display: flex!important;
-        width: ;
+      
     }
     .logo-img{
         display: none;
@@ -195,6 +199,9 @@ body{
 }
 
 @media screen and (min-width: 1025px){
+    body{
+        background-color: #D373A3;
+    }
 
     #logo-lateral-login{
         display: flex!important;

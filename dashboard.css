@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100;300;400;500;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #f9f8f8;
+}
+main{
+    z-index: 0;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 68%;
+    background-color: #eeeaec;
+    border-radius: 0px 20px 20px 0px;
+    z-index: 10;
+    transform: translateX(-150%);
+    transition: all 300ms ease;
+    position: absolute;
+}
+
+#menu.visible{
+    transform: translateX(0);
+}
+
+.icon-home{
+    width: 40px;
+}
+
+.fora-menu-lateral{
+    display: flex;
+    align-items: flex-start;
+    margin: 15px 0px 0 10px;
+}
+
+.dentro-menu-lateral{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    flex-direction: column; 
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.cadaItemDentroMenu{
+    display: flex;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+    margin: 10px 10px 0 5px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.cadaItemDentroMenu:hover{
+    background-color: #dbccd4;
+    font-weight: 500;
+}
+
+.cadaItemDentroMenu p{
+    font-family: 'Inter', sans-serif;
+    margin: 0 0px 0 10px;
+    font-size: 17px;
+    color: #D373A3;
+}
+
+.logo-lado-menu{
+    display: flex;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.meio-menu-lateral-home{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-dashboard{
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 0px 0 10px;
+}
